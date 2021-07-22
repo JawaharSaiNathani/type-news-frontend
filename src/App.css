@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    background-color: #eb0029;
+    font-family: 'Caveat';
+}
+
+.header {
+    display: flex;
+    align-content: center;
+    background-color: black;
+    color: white;
+}
+
+.titleContainer {
+    padding: 30px;
+}
+
+.title {
+    font-size: 50px;
+    font-variant: small-caps;
+    font-weight: 700;
+    line-height: 10px;
+    color: #1DB954;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 0;
+    color: white;
+}
+
+.startMsgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.loadingLogo {
+    width: 450px;
+    height: 300px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 86vh;
+}
+
+.maincontent {
+    flex: 0.75;
+}
+
+.score_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.score_subcontainer {
+    text-align: center;
+}
+
+.center_score {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.score_heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.score_value {
+    padding-top: 8px;
+    font-size: 24px;
+}
+
+.headlineContainer {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1DB954;
+}
+
+.headline {
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.15), 0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1);
+}
+
+.timer {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.displayText_maincontainer {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.displayText_subcontainer {
+    padding: 30px;
+    border-radius: 25px;
+    font-size: 28px;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, #FCC201, #FFDF01);
+    box-shadow: black;
+    -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.inputField_container {
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.input_field {
+    border: none;
+    border-radius: 0px;
+    font-family: 'Caveat';
+    font-size: 21px;
+    padding: 5px;
+    width: 98%;
+    box-shadow: black;
+    -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.input_field:disabled {
+    background-color: lightgray;
+}
+
+.input_field:focus {
+    outline: none;
+}
+
+.button_container {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    background-color: #1DB954;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: black;
+    -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.sidebar {
+    flex: 0.25;
+    border-left: 1px solid white;
+}
+
+.mistakesHeading {
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.mistakeContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.mistake {
+    background-color: white;
+    text-align: center;
+    width: 60%;
+    padding: 5px;
+    font-weight: 800;
+    color: red;
+    border-radius: 25px;
+    font-size: 20px;
+}
